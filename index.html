@@ -4,26 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
     </ul>
-    <h1>Sobre o Samuel</h1>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eaque, 
-        odit sunt esse fugiat consequuntur repellendus optio provident sapiente 
-        beatae doloribus earum, ratione saepe similique molestias distinctio. Natus, voluptate numquam?
-    </p>
-    <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis deleniti illum minima provident officiis magnam, saepe libero blanditiis tempore vero dolorem, ut laudantium doloremque praesentium quo labore iure. Voluptatibus, culpa?
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta neque, error modi consequuntur obcaecati cumque, laborum repellendus et dolore velit repudiandae labore? Vitae, sit excepturi. Eaque corporis officia aliquid commodi.  
-    </p>
-    <img src="Assets/img/chris.jpg" alt="Foto do criador do conteudo">
-    <h2>Minha musica predileta
+    <h1 class="center">Sobre o Samuel</h1>
+    <div class="container">
+        <div>
+            <img class= "br-50 wh-300 p-30" src="Assets/img/chris.jpg" alt="Foto do criador do conteudo">
+        </div>
+        <div class="p-30">
+            <p class="justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eaque, 
+            odit sunt esse fugiat consequuntur repellendus optio provident sapiente 
+            beatae doloribus earum, ratione saepe similique molestias distinctio. Natus, voluptate numquam?
+            </p>
+            <p class="justify">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis deleniti illum minima provident officiis magnam, saepe libero blanditiis tempore vero dolorem, ut laudantium doloremque praesentium quo labore iure. Voluptatibus, culpa?
+            <p class="justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta neque, error modi consequuntur obcaecati cumque, laborum repellendus et dolore velit repudiandae labore? Vitae, sit excepturi. Eaque corporis officia aliquid commodi.  
+            </p>
+        </div>                
+    </div>  
+    <h2 class="center">Minha musica predileta
     </h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Nco_kh8xJDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nco_kh8xJDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>   
+    <hr>
+    <footer>
+        <div class="container p-30">
+            <a href="https://github.com/samfir31" target="blank">
+                <img class="tm-social" src="assets/img/github.png" alt="Logo GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/samuel-firmino/" target="blank">
+                <img class="tm-social" src="assets/img/linkedin.png" alt="Logo linkedin">
+            </a>           
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Samuel Firmino &copy;
+        </p>        
+    </footer>
 </body>
 </html>
